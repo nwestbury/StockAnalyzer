@@ -1,0 +1,16 @@
+This folder holds all the scrapers for stock information from various sources.
+
+Each website will have its own dedicated table in the database (e.g. Yahoo Finance, Morning Star)
+with a row representing a quartly report for a single company (depending on how the data is structed).
+
+
+
+
+To setup the Postgresql Database:
+-Install latest version of postgresql
+-Change default pass:
+	sudo -u postgres psql
+	ALTER USER postgres PASSWORD 'somestrongpass';
+	CREATE USER nico;
+	ALTER ROLE nico WITH SUPERUSER CREATEDB CREATEROLE LOGIN REPLICATION PASSWORD 'toor';
+	

@@ -1,0 +1,9 @@
+# Ignore any file in this directory except for this file and coded files
+*
+!/.gitignore
+!*.py
+!*.c
+!*.cpp
+!*.h
+!*.txt
+!*.log
